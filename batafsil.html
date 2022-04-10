@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <h1 style="text-align: center; color: blue; margin-top: 20px;">Malumotlar</h1>
+            <div class="col-7">
+                <div class="card" style="width: 40rem;">
+                    <img src="ak1.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ak-74 M <span class="badge bg-primary">New</span></h5>
+                        <p class="card-text">Jangovarlik (talafot yetkazish, qirgin qilish) xususiyatlariga koʻra, boshqa barcha jangovar vositalar, qurollardan samaraliroq hisoblanadi.</p>
+                        <a href="index.html" class="btn btn-primary">Orqaga</a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Quick view
+                        </button> &nbsp;
+                        
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Qo`shimcha</button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            Ommaviy qirgʻin qurollari — dushmanning jonli kuchlariga, qurol-aslahalariga, inshootlariga yalpi (ommaviy) talafot yetkazish uchun moʻljallangan jangovar vositalar, qirgʻin qurollari.
+                        </div>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Ommaviy qirgʻin qurollari — dushmanning jonli kuchlariga, qurol-aslahalariga, inshootlariga yalpi (ommaviy) talafot yetkazish uchun moʻljallangan jangovar vositalar, qirgʻin qurollari.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
